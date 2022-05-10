@@ -30,6 +30,8 @@ div.min_menu:hover{
 	font-weight: bold;
 }
 
+.window_menu {}
+
 nav * {
 	margin: 10px 20px;
 }
@@ -129,12 +131,16 @@ div.menu > a {
 
   .slider-container .slider-trigger, .info_feedback .slider-trigger{
     position: absolute;
-    top: 80%;
+    top: 85%;
     left: 80%;
     height: 50px;
     width: auto;
     display: flex;
     justify-content: center; 
+}
+
+div.slider-trigger.slider-triger-add{
+	top: 98%;
 }
   .slider-container .slider-trigger > div {
       height: 60px;
@@ -173,6 +179,7 @@ div.menu > a {
 
 .slider-points {
 	left: unset;
+	top: 98%;
 }
   .slider-container .gallery-points li, .slider-points li, .feedback_points li {
       width: 20px;
