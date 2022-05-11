@@ -45,10 +45,6 @@ body {
 	justify-content: right;
 }
 
-/*html {
-	overflow: ; 
-}*/
-
 .noaktiv{
 	display: none;
 }
@@ -62,7 +58,7 @@ body {
 	padding: 20px;
 	position: absolute;
 	right: -260px;
-	transition: right 0.5s ease;
+	transition: right 0.7s cubic-bezier(0.69, 0.21, 0.39, 0.85);
 }
 
 .menu_mini_text > a {
