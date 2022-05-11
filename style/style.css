@@ -627,7 +627,7 @@ div.min_menu{
 }
 }
 
-@media (max-width: 915px) {
+@media (max-width: 750px) {
 	div.cards, div.company_cards {
 		grid-template-columns: repeat(1, 1fr);
 	}
