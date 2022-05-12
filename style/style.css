@@ -5,6 +5,10 @@
 	text-decoration: none;
 }
 
+body {
+	min-width: 530px;
+}
+
 nav {
 	position: sticky;
     top: 0;
