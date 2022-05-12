@@ -593,6 +593,11 @@ button {
 
 
 /*************************/
+@media (max-width: 1001px) {
+	h2 {
+		margin-right: 14px;
+	}
+}
 
 @media (max-width: 950px) {
 	div.about_us{
@@ -608,11 +613,7 @@ button {
 	}
 }
 
-@media (max-width: 937px) {
-	h2 {
-		margin-right: 14px;
-	}
-}
+
 
 @media (max-width: 915px) {
 
