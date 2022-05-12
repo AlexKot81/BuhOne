@@ -7,6 +7,7 @@
 
 body {
 	min-width: 530px;
+	max-width: 1920px;
 }
 
 nav {
