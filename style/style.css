@@ -409,9 +409,7 @@ div.slider-trigger.slider-triger-add{
    .shot_feedback .text_feedback > p {
    	margin-bottom: 50px;
    	text-align: justify;
-   	font-size: 18px;
-   	/*padding: 20px;*/
-   	
+   	font-size: 18px;   	
    }
 
    .foto_info{
@@ -426,12 +424,11 @@ div.slider-trigger.slider-triger-add{
 
    .info_feedback .slider-trigger{
     position: unset;
-    /*top: 70%;
-    left: 85%;*/
     height: 50px;
     width: auto;
     display: flex;
     justify-content: center; 
+    align-items: center;
 }
 
 .info_feedback .slider-trigger > div {
@@ -462,9 +459,6 @@ div.slider-trigger.slider-triger-add{
   }
 
   .info_feedback .feedback_points {
-    /*position: absolute;
-    top: 70%;
-    left: 5%;*/
     display: flex;
     list-style: none; 
 }
@@ -481,6 +475,11 @@ div.slider-trigger.slider-triger-add{
 	justify-content: space-between;
 	align-items: center;
 	height: 60px;
+}
+
+.btn_feedback div {
+	  display: flex;
+    align-items: flex-end;
 }
 
 #podval {
